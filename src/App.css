@@ -104,6 +104,10 @@
     width: 100%;
 }
 
+.w70 {
+    width: 70%;
+}
+
 .w50 {
     width: 50%;
 }
@@ -118,10 +122,12 @@
 
 .json-box {
     background-color: #43474e;
-    border-radius: 16px;
     width: 100%;
     overflow: auto;
     max-height: 500px;
-/*    왼쪽 정렬*/
+    min-height: 500px;
     text-align: left;
+    scrollbar-width: thin;
+    scrollbar-color: #282c34 #43474e;
+
 }
