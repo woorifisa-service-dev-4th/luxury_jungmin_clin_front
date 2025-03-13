@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +34,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p5-10 {
+    padding: 5px 10px;
+}
+
+.p10-50 {
+    padding: 10px 50px;
+}
+
+.p50-0 {
+    padding: 50px 0;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
+
+.rounded-8 {
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.json-box {
+    background-color: #43474e;
+    border-radius: 16px;
+    width: 100%;
+    overflow: auto;
+    max-height: 500px;
+/*    왼쪽 정렬*/
+    text-align: left;
 }
