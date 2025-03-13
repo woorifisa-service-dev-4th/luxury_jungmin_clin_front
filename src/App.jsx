@@ -19,14 +19,14 @@ function App() {
 
             if (!response.ok) {
                 console.error("Failed to fetch:", response);
-                setResponse("Failed to fetch");
+                setResponse("ERROR: " + response);
             }
 
             const data = await response.json();
             setResponse(data);
         } catch (error) {
             console.error("Failed to fetch:", error);
-            setResponse("Failed to fetch");
+            setResponse("ERROR: " + error);
         }
     };
 
